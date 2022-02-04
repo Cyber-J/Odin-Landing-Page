@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Hero&display=swap');
+
+
+body{
+    margin: 0;
+}
+.Fullbody, .Upperbody, .gallery{
+    display: flex;
+    flex-direction: column;
+}
+
+.Header, .Content, .Secondbody{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Upperbody, .Footer{
+    background-color: #1F2937;
+    margin: 0;
+    padding: 0;
+}
+
+.Content{
+
+}
+ 
+.text{
+    margin: 40px 0 20px 150px;
+}
+
+.Thirdbody, .Footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    font-size: 48px;
+    font-weight:  bolder;
+    color: #F9FAF8;
+    font-family: Hero;
+
+
+}
+
+.left{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.right{
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#gaq, .Bluebox{
+    background-color: #3882F6;
+    border-radius: 20px;
+}
+
+#gaq{
+    width: 100px;
+    height: 40px;
+    border-color: #3882F6;
+}
+
+.h3{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.Thirdbody{
+    background-color: #E5E7EB;
+}
+
+.Thirdbody.qoute{
+    font-size: 36px;
+    font-weight: italic;
+    color: #1F2937;
+}
+
+img{
+    border-radius: 20px;
+    width: 100px;
+    height: auto;
+}
+
+#image{
+    width: 300px;
+    height: 250px;
+    border-radius: 0%;
+    margin: 40px 80px 20px 0px;
+     
+}
+
+.Footer{
+    font-family: Hero;
+}
